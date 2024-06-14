@@ -14,6 +14,10 @@ app.get("/style.css", (req, res) => {
 	res.sendFile(__dirname + "/Public/style.css");
 });
 
+app.get("/resume", (req, res) => {
+	res.sendFile(__dirname + "/Public/Media/resume.pdf");
+});
+
 app.get("/:folder/:filename", (req, res) => {
 	res.sendFile(__dirname + `/Public/${req.params.folder}/${req.params.filename}`);
 });
