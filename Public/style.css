@@ -348,6 +348,23 @@ img.picture:hover {
     font-weight: 400;
 }
 
+.download_resume {
+    font-size: 40px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, yellow, #FEAF31);
+    width: max-content;
+    color: #1d1d1d;
+    margin: auto;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #FEAF31;
+}
+
+.download_resume:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #FEAF31;
+}
+
 @keyframes appear {
     from {
         transform: translateY(20px);
